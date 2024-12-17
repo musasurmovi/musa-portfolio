@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/event.png";
 import rmtdevImg from "@/public/calendar.jpg";
 import wordanalyticsImg from "@/public/eng.png";
+
+ 
+
 
 export const links = [
   {
@@ -63,10 +66,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Adassa/Axiom lab",
+    title: "Axiom lab",
+    companyName : "True Meridian",
     description:
-      "(Company: True Meridain)  Axiom is a role-specific decision support system that simplifies and de-risks project delivery. Through AI-powered project monitoring, proactive risk assessment, forecasting and scenario simulation, Axiom helps Owners, PMCs and General Contractors deliver on time and on budget, without compromising safety and quality.",
-    tags: ["NEXT 14", "Typescript", "Tailwind CSS", "APEX Chart"],
+      "Axiom is a role-specific decision support system that simplifies and de-risks project delivery. Through AI-powered project monitoring, proactive risk assessment, forecasting and scenario simulation, Axiom helps Owners, PMCs and General Contractors deliver on time and on budget, without compromising safety and quality.",
+    tags: ["NEXT 14", "Typescript", "Tailwind CSS", "Redux Toolkit", "APEX Chart"],
     imageUrl: corpcommentImg,
   },
   // {
@@ -85,18 +89,21 @@ export const projectsData = [
   // },
 ] as const;
 
+// data/skillsData.ts
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux, SiBootstrap, SiExpress } from "react-icons/si";
+
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Redux",
-  "Redux toolkit",
-  "Bootstrap",
-  "Express",
-] as const;
+  { name: "HTML", icon: FaHtml5, color: "text-orange-500" },
+  { name: "CSS", icon: FaCss3Alt, color: "text-blue-500" },
+  { name: "JavaScript", icon: FaJs, color: "text-yellow-400" },
+  { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
+  { name: "React", icon: FaReact, color: "text-cyan-500" },
+  { name: "Next.js", icon: SiNextdotjs, color: "text-gray-800 dark:text-white" },
+  { name: "Node.js", icon: FaNodeJs, color: "text-green-600" },
+  { name: "Git", icon: FaGithub , color: "text-orange-700" },
+  { name: "Tailwind", icon: SiTailwindcss, color: "text-cyan-400" },
+  { name: "Redux", icon: SiRedux, color: "text-purple-600" },
+  { name: "Redux toolkit", icon: SiRedux, color: "text-purple-600" },
+  { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-500" },
+  { name: "Express", icon: SiExpress, color: "text-gray-700 dark:text-white" },
+];
