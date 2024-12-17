@@ -34,20 +34,22 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:musa.surmovi@gmail.com">
-        musa.surmovi@gmail.com
+          musa.surmovi@gmail.com
         </a>{" "}
-        or through this form.
+        or on WhatsApp at{" "}
+        <a className="underline" href="https://wa.me/03451123499" target="_blank" rel="noopener noreferrer">
+          03451123499
+        </a>{" "}
+        or call me at{" "}
+        <a className="underline" href="tel:+923451123499">
+          +923451123499
+        </a>.
       </p>
 
-      <form
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          // const { data, error } = await sendEmail(formData);
-
-          // if (error) {
-          //   toast.error(error);
-          //   return;
-          // }
+        
 
           toast.success("Email sent successfully!");
         }}
@@ -68,7 +70,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }
