@@ -26,7 +26,7 @@ export default function Projects() {
       {!showAll && (
      <div className="w-full text-center">  <button
      onClick={() => setShowAll(true)}
-     className="mt-10 px-6 py-1.5 border text-white border-blue-700 rounded-lg text-base bg-blue-500 hover:bg-blue-600   font-medium "
+     className="mt-4 md:mt-6 px-6 py-1.5 border text-white border-blue-700 rounded-lg text-base bg-blue-500 hover:bg-blue-600   font-medium "
    >
      Show all
    </button></div>
