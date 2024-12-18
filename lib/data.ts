@@ -68,25 +68,32 @@ export const projectsData = [
   {
     title: "Axiom lab",
     companyName : "True Meridian",
+    projectLink:  null,
     description:
       "Axiom is a role-specific decision support system that simplifies and de-risks project delivery. Through AI-powered project monitoring, proactive risk assessment, forecasting and scenario simulation, Axiom helps Owners, PMCs and General Contractors deliver on time and on budget, without compromising safety and quality.",
     tags: ["NEXT 14", "Typescript", "Tailwind CSS", "Redux Toolkit", "APEX Chart"],
     imageUrl: corpcommentImg,
   },
-  // {
-  //   title: "Plexaar CRM",
-  //   description:
-  //     "Plexaar is a CRM Application, where different businesses register themself and manage their clients and staff.",
-  //   tags: ["React", "Material UI", "Scss", "Storybook Components", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
-  // {
-  //   title: "Lyca Audit Firm",
-  //   description:
-  //     "This is a audit firm which manages and audit different companies through registering them as a client and doing their audit",
-  //   tags: ["React", "Micro Frontend", "Redux", "Material UI", "Scss"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Expert",
+    companyName : "Selteq Solutions Pvt. ltd.",
+    projectLink: "http://expert.one",
+    description:
+      "Expert provides thousands of different services bookable via one app. It allows you to book almost any service you can think of, from electricians to beauticians and tradesmen.",
+    tags: ["React", "Material UI", "Scss", "Storybook Components", "Redux"],
+    imageUrl: rmtdevImg,
+  },
+
+  {
+    title: "Roomy",
+    companyName : "Dynamologic Solutions",
+    projectLink: "https://roomy.pk/",
+    description:
+      "Roomy.pk is a user-friendly platform that simplifies the process of finding and booking residential or vacation properties. With a focus on premium accommodations and tailored features, it provides a seamless experience for users looking for comfort and convenience. Backed by reliable listings and exceptional customer service, Roomy.pk is dedicated to meeting diverse property needs efficiently",
+    tags: ["React", "Material UI", "CSS", "Redux"],
+    imageUrl: wordanalyticsImg,
+  },
+ 
 ] as const;
 
 // data/skillsData.ts

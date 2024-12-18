@@ -10,6 +10,7 @@ type ProjectProps = (typeof projectsData)[number];
 export default function Project({
   title,
   companyName,
+  projectLink,
   description,
   tags,
   imageUrl,
@@ -41,6 +42,21 @@ export default function Project({
           </p>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
+          </p>
+          <p className="my-2 text-gray-700 dark:text-white/80">
+            <span className="font-medium">Project Link: </span>
+            {projectLink ? (
+              <a
+                href={projectLink}
+                className="underline text-blue-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {projectLink}
+              </a>
+            ) : (
+              <span className="italic text-gray-500">Confidential</span>
+            )}
           </p>
 
           <ul className="flex flex-wrap   gap-2 sm:mt-auto">
