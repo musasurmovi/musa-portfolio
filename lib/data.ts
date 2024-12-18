@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/event.png";
 import rmtdevImg from "@/public/calendar.jpg";
 import wordanalyticsImg from "@/public/eng.png";
+import pickImg from "@/public/pick.png";
 
  
 
@@ -79,7 +80,7 @@ export const projectsData = [
     companyName : "Selteq Solutions Pvt. ltd.",
     projectLink: "http://expert.one",
     description:
-      "Expert provides thousands of different services bookable via one app. It allows you to book almost any service you can think of, from electricians to beauticians and tradesmen.",
+      "Expert.one is a comprehensive platform connecting users with skilled professionals across various industries. It offers reliable services tailored to meet specific needs, ensuring quality and convenience. With a focus on expertise and trust, Expert.one simplifies finding and hiring professionals for personal or business projects",
     tags: ["React", "Material UI", "Scss", "Storybook Components", "Redux"],
     imageUrl: rmtdevImg,
   },
@@ -92,6 +93,15 @@ export const projectsData = [
       "Roomy.pk is a user-friendly platform that simplifies the process of finding and booking residential or vacation properties. With a focus on premium accommodations and tailored features, it provides a seamless experience for users looking for comfort and convenience. Backed by reliable listings and exceptional customer service, Roomy.pk is dedicated to meeting diverse property needs efficiently",
     tags: ["React", "Material UI", "CSS", "Redux"],
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "The Pick Vault",
+    companyName : "Dynamologic Solutions",
+    projectLink: "https://www.pickvault.com",
+    description:
+      "The Pick Vault is the first Artificial Intelligence sports betting analysis platform. The Pick Vault was created to leverage next gen stats and machine learning, in order to help our members use sports betting as a money maximizing investment tool",
+    tags: ["React", "CSS", "Redux"],
+    imageUrl: pickImg,
   },
  
 ] as const;
