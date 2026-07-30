@@ -10,7 +10,7 @@ export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
   const [showAll, setShowAll] = useState(false);
 
-  const projectsToShow = showAll ? projectsData : projectsData.slice(0, 2);
+  const projectsToShow = showAll ? projectsData : projectsData.slice(0, 4);
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">

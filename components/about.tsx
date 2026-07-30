@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        A full stack developer with expertise in React JS, NextJS, JavaScript,
+        A software frontend focused developer with expertise in React JS, NextJS, JavaScript,
         NodeJs, HTML, Tailwind CSS, Bootstape, CSS, and SCSS. Experience working on a range of projects,
         from simple web pages to complex web applications, and have a track
         record of delivering quality work on time and within budget. Currently

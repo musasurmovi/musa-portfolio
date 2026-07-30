@@ -1,14 +1,19 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import {
+  FaCss3Alt,
+  FaGit,
+  FaGithub,
+  FaHtml5,
+  FaJs,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import corpcommentImg from "@/public/event.png";
+import quanteamImg from "@/public/quanteam.png";
 import rmtdevImg from "@/public/calendar.jpg";
 import wordanalyticsImg from "@/public/eng.png";
 import pickImg from "@/public/pick.png";
-
- 
-
 
 export const links = [
   {
@@ -71,17 +76,41 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Quanteam",
+    companyName: "True Meridian",
+    description:
+      "Quanteam is a Next.js workspace for managing AI agents, real-time web channels, and team workflows. It combines auth, Stripe billing, and socket-driven dashboard, communications, and task/task-board functionality",
+    tags: [
+      "NEXT JS",
+      "Typescript",
+      "Tailwind CSS",
+      "Zustand",
+      "Chart.js",
+      "openclaw",
+      "Websocket",
+    ],
+    projectLink: "https://app.quanteam.ai",
+    imageUrl: quanteamImg,
+  },
+
+  {
     title: "Axiom lab",
-    companyName : "True Meridian",
-    projectLink:  null,
+    companyName: "True Meridian",
+    projectLink: null,
     description:
       "Axiom is a role-specific decision support system that simplifies and de-risks project delivery. Through AI-powered project monitoring, proactive risk assessment, forecasting and scenario simulation, Axiom helps Owners, PMCs and General Contractors deliver on time and on budget, without compromising safety and quality.",
-    tags: ["NEXT 14", "Typescript", "Tailwind CSS", "Redux Toolkit", "APEX Chart"],
+    tags: [
+      "NEXT 14",
+      "Typescript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "APEX Chart",
+    ],
     imageUrl: corpcommentImg,
   },
   {
     title: "Expert",
-    companyName : "Selteq Solutions Pvt. ltd.",
+    companyName: "Selteq Solutions Pvt. ltd.",
     projectLink: "http://expert.one",
     description:
       "Expert.one is a comprehensive platform connecting users with skilled professionals across various industries. It offers reliable services tailored to meet specific needs, ensuring quality and convenience. With a focus on expertise and trust, Expert.one simplifies finding and hiring professionals for personal or business projects",
@@ -91,7 +120,7 @@ export const projectsData = [
 
   {
     title: "Roomy",
-    companyName : "Dynamologic Solutions",
+    companyName: "Dynamologic Solutions",
     projectLink: "https://roomy.pk/",
     description:
       "Roomy.pk is a user-friendly platform that simplifies the process of finding and booking residential or vacation properties. With a focus on premium accommodations and tailored features, it provides a seamless experience for users looking for comfort and convenience. Backed by reliable listings and exceptional customer service, Roomy.pk is dedicated to meeting diverse property needs efficiently",
@@ -100,18 +129,24 @@ export const projectsData = [
   },
   {
     title: "The Pick Vault",
-    companyName : "Dynamologic Solutions",
+    companyName: "Dynamologic Solutions",
     projectLink: "https://www.pickvault.com",
     description:
       "The Pick Vault is the first Artificial Intelligence sports betting analysis platform. The Pick Vault was created to leverage next gen stats and machine learning, in order to help our members use sports betting as a money maximizing investment tool",
     tags: ["React", "CSS", "Redux"],
     imageUrl: pickImg,
   },
- 
 ] as const;
 
 // data/skillsData.ts
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux, SiBootstrap, SiExpress } from "react-icons/si";
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiRedux,
+  SiBootstrap,
+  SiExpress,
+} from "react-icons/si";
 
 export const skillsData = [
   { name: "HTML", icon: FaHtml5, color: "text-orange-500" },
@@ -119,9 +154,13 @@ export const skillsData = [
   { name: "JavaScript", icon: FaJs, color: "text-yellow-400" },
   { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
   { name: "React", icon: FaReact, color: "text-cyan-500" },
-  { name: "Next.js", icon: SiNextdotjs, color: "text-gray-800 dark:text-white" },
+  {
+    name: "Next.js",
+    icon: SiNextdotjs,
+    color: "text-gray-800 dark:text-white",
+  },
   { name: "Node.js", icon: FaNodeJs, color: "text-green-600" },
-  { name: "Git", icon: FaGithub , color: "text-orange-700" },
+  { name: "Git", icon: FaGithub, color: "text-orange-700" },
   { name: "Tailwind", icon: SiTailwindcss, color: "text-cyan-400" },
   { name: "Redux", icon: SiRedux, color: "text-purple-600" },
   { name: "Redux toolkit", icon: SiRedux, color: "text-purple-600" },
